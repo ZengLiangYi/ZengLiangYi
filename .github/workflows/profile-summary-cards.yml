@@ -1,0 +1,33 @@
+# ===========================================================
+# GitHub Profile Summary Cards 自动生成
+# ----------------------------------------------------------
+# 使用 GitHub Actions 生成统计卡片 SVG，直接提交到仓库
+# 不依赖任何外部 Vercel 实例，100% 自托管可靠
+# ===========================================================
+
+name: Generate Profile Summary Cards
+
+on:
+  schedule:
+    # 每 12 小时更新一次
+    - cron: "0 */12 * * *"
+  workflow_dispatch: # 支持手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Generate summary cards
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: main
+          FOLDER_NAME: profile-summary-card-output

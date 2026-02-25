@@ -23,15 +23,19 @@
 
 ---
 
-<!-- GITHUB STATS -->
+<!-- GITHUB STATS (自托管，由 GitHub Actions 生成) -->
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=ZengLiangYi&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&icon_color=00ff41&title_color=00ff41" />
+<img height="170" src="./profile-summary-card-output/radical/3-stats.svg" />
 &nbsp;&nbsp;
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZengLiangYi&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=00ff41" />
+<img height="170" src="./profile-summary-card-output/radical/1-repos-per-language.svg" />
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=ZengLiangYi&theme=radical&hide_border=true&background=0D1117&ring=00ff41&fire=00ff41&currStreakLabel=00ff41" />
+<img height="170" src="./profile-summary-card-output/radical/0-profile-details.svg" />
+
+<br/><br/>
+
+<img src="https://streak-stats.demolab.com?user=ZengLiangYi&theme=radical&hide_border=true&background=0D1117&ring=00ff41&fire=00ff41&currStreakLabel=00ff41" />
 
 ---
 
