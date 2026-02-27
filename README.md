@@ -7,19 +7,61 @@
 
 ### 🏗️ 勤能补拙
 
+> *In the middle of difficulty lies opportunity.*
+
+🔗 [zengliangyi.cn](https://www.zengliangyi.cn)
+
+---
+
+<!-- ABOUT -->
+
+**Full-stack developer** focused on building enterprise-grade web applications and AI-powered products.
+
+Passionate about **React / Vue ecosystem**, **cross-platform mobile development**, and **AI integration**.
+
 ---
 
 <!-- TECH STACK -->
 
 #### `// Languages`
 
-![JavaScript](https://img.shields.io/badge/JavaScript-0d1117?style=for-the-badge&logo=javascript&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-0d1117?style=for-the-badge&logo=typescript&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-0d1117?style=for-the-badge&logo=typescript&logoColor=3178C6)
+![JavaScript](https://img.shields.io/badge/JavaScript-0d1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![Dart](https://img.shields.io/badge/Dart-0d1117?style=for-the-badge&logo=dart&logoColor=0175C2)
+![HTML5](https://img.shields.io/badge/HTML5-0d1117?style=for-the-badge&logo=html5&logoColor=E34F26)
+![CSS3](https://img.shields.io/badge/CSS3-0d1117?style=for-the-badge&logo=css3&logoColor=1572B6)
 
-#### `// Frameworks`
+#### `// Frameworks & Libraries`
 
-![React](https://img.shields.io/badge/React-0d1117?style=for-the-badge&logo=react&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-0d1117?style=for-the-badge&logo=vue.js&logoColor=white)
+![React](https://img.shields.io/badge/React-0d1117?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-0d1117?style=for-the-badge&logo=next.js&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-0d1117?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
+![Flutter](https://img.shields.io/badge/Flutter-0d1117?style=for-the-badge&logo=flutter&logoColor=02569B)
+![Ant Design](https://img.shields.io/badge/Ant_Design-0d1117?style=for-the-badge&logo=ant-design&logoColor=0170FE)
+![Vant](https://img.shields.io/badge/Vant-0d1117?style=for-the-badge&logo=data:image/svg+xml;base64,&logoColor=07c160)
+
+#### `// Build & DevTools`
+
+![Vite](https://img.shields.io/badge/Vite-0d1117?style=for-the-badge&logo=vite&logoColor=646CFF)
+![UmiJS](https://img.shields.io/badge/UmiJS-0d1117?style=for-the-badge&logo=umami&logoColor=1890FF)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-0d1117?style=for-the-badge&logo=tailwind-css&logoColor=06B6D4)
+![UnoCSS](https://img.shields.io/badge/UnoCSS-0d1117?style=for-the-badge&logo=unocss&logoColor=333333)
+![pnpm](https://img.shields.io/badge/pnpm-0d1117?style=for-the-badge&logo=pnpm&logoColor=F69220)
+![Biome](https://img.shields.io/badge/Biome-0d1117?style=for-the-badge&logo=biome&logoColor=60A5FA)
+![ESLint](https://img.shields.io/badge/ESLint-0d1117?style=for-the-badge&logo=eslint&logoColor=4B32C3)
+
+#### `// State & Data`
+
+![Zustand](https://img.shields.io/badge/Zustand-0d1117?style=for-the-badge&logo=react&logoColor=F6D860)
+![Pinia](https://img.shields.io/badge/Pinia-0d1117?style=for-the-badge&logo=vue.js&logoColor=FFD859)
+![ECharts](https://img.shields.io/badge/ECharts-0d1117?style=for-the-badge&logo=apache-echarts&logoColor=AA344D)
+![Socket.io](https://img.shields.io/badge/Socket.io-0d1117?style=for-the-badge&logo=socket.io&logoColor=white)
+
+#### `// AI & Cloud`
+
+![Coze AI](https://img.shields.io/badge/Coze_AI-0d1117?style=for-the-badge&logo=openai&logoColor=00FF41)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-0d1117?style=for-the-badge&logo=google&logoColor=0F9D58)
+![Tencent Cloud](https://img.shields.io/badge/Tencent_Cloud-0d1117?style=for-the-badge&logo=tencentqq&logoColor=00B2FF)
 
 ---
 
