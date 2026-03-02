@@ -1,97 +1,48 @@
+<!-- ====== HEADER ====== -->
 <div align="center">
 
-<!-- HEADER -->
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&random=false&width=600&lines=Building+the+future%2C;one+commit+at+a+time." alt="Typing SVG" /></a>
+
+**React / Vue / Flutter / Next.js — 构建企业级 Web 应用与 AI 产品**
+
+[![Juejin](https://img.shields.io/badge/掘金-0d1117?style=flat&logo=juejin&logoColor=1E80FF)](https://juejin.cn/user/1669474445171547)
+[![Blog](https://img.shields.io/badge/Blog-zengliangyi.cn-0d1117?style=flat&logo=safari&logoColor=00FF41)](https://www.zengliangyi.cn)
+
+</div>
+
+---
+
+<!-- ====== TECH STACK ====== -->
+
+### 🛠️ Tech Stack
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![Ant Design](https://img.shields.io/badge/Ant_Design-0170FE?style=flat-square&logo=ant-design&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white)
+
+---
+
+<!-- ====== GITHUB STATS ====== -->
+
+<div align="center">
+
+<img height="160" src="./profile-summary-card-output/radical/3-stats.svg" />&nbsp;&nbsp;<img height="160" src="https://streak-stats.demolab.com?user=ZengLiangYi&theme=radical&hide_border=true&background=0D1117&ring=00ff41&fire=00ff41&currStreakLabel=00ff41" />
 
 <br/>
 
-### 🏗️ 勤能补拙
+<img height="160" src="./profile-summary-card-output/radical/0-profile-details.svg" />&nbsp;&nbsp;<img height="160" src="./profile-summary-card-output/radical/1-repos-per-language.svg" />
 
-> *In the middle of difficulty lies opportunity.*
-
-🔗 [zengliangyi.cn](https://www.zengliangyi.cn)
+</div>
 
 ---
 
-<!-- ABOUT -->
-
-**Full-stack developer** focused on building enterprise-grade web applications and AI-powered products.
-
-Passionate about **React / Vue ecosystem**, **cross-platform mobile development**, and **AI integration**.
-
----
-
-<!-- TECH STACK -->
-
-#### `// Languages`
-
-![TypeScript](https://img.shields.io/badge/TypeScript-0d1117?style=for-the-badge&logo=typescript&logoColor=3178C6)
-![JavaScript](https://img.shields.io/badge/JavaScript-0d1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![Dart](https://img.shields.io/badge/Dart-0d1117?style=for-the-badge&logo=dart&logoColor=0175C2)
-![HTML5](https://img.shields.io/badge/HTML5-0d1117?style=for-the-badge&logo=html5&logoColor=E34F26)
-![CSS3](https://img.shields.io/badge/CSS3-0d1117?style=for-the-badge&logo=css3&logoColor=1572B6)
-
-#### `// Frameworks & Libraries`
-
-![React](https://img.shields.io/badge/React-0d1117?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-0d1117?style=for-the-badge&logo=next.js&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-0d1117?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
-![Flutter](https://img.shields.io/badge/Flutter-0d1117?style=for-the-badge&logo=flutter&logoColor=02569B)
-![Ant Design](https://img.shields.io/badge/Ant_Design-0d1117?style=for-the-badge&logo=ant-design&logoColor=0170FE)
-![Vant](https://img.shields.io/badge/Vant-0d1117?style=for-the-badge&logo=data:image/svg+xml;base64,&logoColor=07c160)
-
-#### `// Build & DevTools`
-
-![Vite](https://img.shields.io/badge/Vite-0d1117?style=for-the-badge&logo=vite&logoColor=646CFF)
-![UmiJS](https://img.shields.io/badge/UmiJS-0d1117?style=for-the-badge&logo=umami&logoColor=1890FF)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-0d1117?style=for-the-badge&logo=tailwind-css&logoColor=06B6D4)
-![UnoCSS](https://img.shields.io/badge/UnoCSS-0d1117?style=for-the-badge&logo=unocss&logoColor=333333)
-![pnpm](https://img.shields.io/badge/pnpm-0d1117?style=for-the-badge&logo=pnpm&logoColor=F69220)
-![Biome](https://img.shields.io/badge/Biome-0d1117?style=for-the-badge&logo=biome&logoColor=60A5FA)
-![ESLint](https://img.shields.io/badge/ESLint-0d1117?style=for-the-badge&logo=eslint&logoColor=4B32C3)
-
-#### `// State & Data`
-
-![Zustand](https://img.shields.io/badge/Zustand-0d1117?style=for-the-badge&logo=react&logoColor=F6D860)
-![Pinia](https://img.shields.io/badge/Pinia-0d1117?style=for-the-badge&logo=vue.js&logoColor=FFD859)
-![ECharts](https://img.shields.io/badge/ECharts-0d1117?style=for-the-badge&logo=apache-echarts&logoColor=AA344D)
-![Socket.io](https://img.shields.io/badge/Socket.io-0d1117?style=for-the-badge&logo=socket.io&logoColor=white)
-
-#### `// AI & Cloud`
-
-![Coze AI](https://img.shields.io/badge/Coze_AI-0d1117?style=for-the-badge&logo=openai&logoColor=00FF41)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-0d1117?style=for-the-badge&logo=google&logoColor=0F9D58)
-![Tencent Cloud](https://img.shields.io/badge/Tencent_Cloud-0d1117?style=for-the-badge&logo=tencentqq&logoColor=00B2FF)
-
----
-
-<!-- GITHUB STATS (自托管，由 GitHub Actions 生成) -->
-
-<img height="170" src="./profile-summary-card-output/radical/3-stats.svg" />
-&nbsp;&nbsp;
-<img height="170" src="./profile-summary-card-output/radical/1-repos-per-language.svg" />
-
-<br/><br/>
-
-<img height="170" src="./profile-summary-card-output/radical/0-profile-details.svg" />
-
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com?user=ZengLiangYi&theme=radical&hide_border=true&background=0D1117&ring=00ff41&fire=00ff41&currStreakLabel=00ff41" />
-
----
-
-<!-- SNAKE CONTRIBUTION -->
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZengLiangYi/ZengLiangYi/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ZengLiangYi/ZengLiangYi/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/ZengLiangYi/ZengLiangYi/output/github-snake-dark.svg" />
-</picture>
-
----
-
-<!-- BLOG POSTS -->
+<!-- ====== BLOG POSTS ====== -->
 
 ### 📕 Latest Blog Posts
 
@@ -100,6 +51,18 @@ Passionate about **React / Vue ecosystem**, **cross-platform mobile development*
 - [HarmonyOS学习-状态管理](https://juejin.cn/post/7426914011558150170) — Sat Oct 19 2024 3:14 AM<!-- BLOG-POST-LIST:END -->
 
 ---
+
+<!-- ====== FOOTER ====== -->
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZengLiangYi/ZengLiangYi/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ZengLiangYi/ZengLiangYi/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/ZengLiangYi/ZengLiangYi/output/github-snake-dark.svg" />
+</picture>
+
+<br/><br/>
 
 <img src="https://komarev.com/ghpvc/?username=ZengLiangYi&color=00ff41&style=flat-square&label=PROFILE+VIEWS" />
 
