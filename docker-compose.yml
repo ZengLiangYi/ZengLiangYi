@@ -1,0 +1,21 @@
+# ===========================================================
+# RSSHub 本地实例 (仅供 GitHub Actions 使用)
+# ----------------------------------------------------------
+# 用于将掘金等不支持 RSS 的平台转为 RSS Feed
+# 在 CI 中临时启动，供 blog-post-workflow 读取
+# ===========================================================
+
+services:
+  rsshub:
+    image: diygod/rsshub:latest
+    ports:
+      - "1200:1200"
+    environment:
+      - NODE_ENV=production
+      - CACHE_TYPE=memory
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:1200/"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 15s

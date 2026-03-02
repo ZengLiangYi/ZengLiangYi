@@ -1,11 +1,8 @@
 # ===========================================================
 # 博客文章自动抓取 Workflow
 # ----------------------------------------------------------
-# 激活方式：
-#   1. 在你的公众号 / 知乎 / 掘金后台开启 RSS 输出
-#   2. 将下方 feed_list 中的示例 URL 替换为你的真实 RSS 地址
-#   3. 取消 feed_list 行的注释
-#   4. Push 后 GitHub Actions 将每天自动抓取并更新 README
+# 通过 Docker Compose 启动本地 RSSHub 实例，
+# 将掘金文章转为 RSS Feed，再由 blog-post-workflow 更新 README
 # ===========================================================
 
 name: Latest Blog Posts
@@ -16,20 +13,38 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch: # 支持手动触发
 
+permissions:
+  contents: write
+
 jobs:
   update-readme-with-blog:
     name: Update README with latest blog posts
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: gautamkrishnar/blog-post-workflow@v1
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Start RSSHub via Docker Compose
+        run: docker compose up -d --wait
+        timeout-minutes: 3
+
+      - name: Verify RSSHub is serving Juejin feed
+        run: |
+          echo "Testing RSSHub Juejin endpoint..."
+          curl -sf "http://localhost:1200/juejin/posts/1669474445171547" | head -c 500
+          echo ""
+          echo "RSSHub is ready."
+
+      - name: Update README with latest blog posts
+        uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          # ============================================
-          # 只需在公众号/知乎后台开启 RSS 并替换 URL 即可激活
-          # ============================================
-          # 示例 RSS 地址（取消注释并替换为你的真实地址）:
-          # feed_list: "https://your-zhihu-rss-url.com/feed,https://your-wechat-rss-url.com/feed"
-          feed_list: ""
+          feed_list: "http://localhost:1200/juejin/posts/1669474445171547"
           max_post_count: "5"
           template: "$newline- [$title]($url) — $date"
           comment_tag_name: "BLOG-POST-LIST"
+          commit_message: "docs: update README with latest Juejin blog posts"
+
+      - name: Stop RSSHub
+        if: always()
+        run: docker compose down
