@@ -47,6 +47,7 @@
 ### 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [并发 401 下的 Token 刷新竞态：一个被低估的 Bug](https://juejin.cn/post/7613004898187903028) — Wed Mar 04 2026 8:22 AM
 - [Git Tag + Semver + CI/CD：从打标签到自动发布的完整实践](https://juejin.cn/post/7611820139811733558) — Mon Mar 02 2026 3:49 AM
 - [HarmonyOS学习-状态管理](https://juejin.cn/post/7426914011558150170) — Sat Oct 19 2024 3:14 AM<!-- BLOG-POST-LIST:END -->
 
