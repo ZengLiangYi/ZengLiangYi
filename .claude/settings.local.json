@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:juejin.cn)",
+      "WebFetch(domain:docs.rsshub.app)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:zzetao.github.io)",
+      "Bash(gh api repos/coderjojo/creative-profile-readme/readme --template '{{.content}}')",
+      "Bash(gh api repos/abhisheknaiidu/awesome-github-profile-readme/readme --template '{{.content}}')",
+      "Bash(gh api repos/Rishit-dagli/Rishit-dagli/readme --template '{{.content}}')",
+      "Bash(gh api repos/DenverCoder1/DenverCoder1/readme --template '{{.content}}')",
+      "Bash(gh api repos/guilyx/guilyx/readme --template '{{.content}}')",
+      "Bash(gh api repos/thmsgbrt/thmsgbrt/readme --template '{{.content}}')",
+      "Bash(gh api repos/SP-XD/SP-XD/readme --template '{{.content}}')",
+      "Bash(gh api repos/Platane/Platane/readme --template '{{.content}}')",
+      "Bash(gh api repos/sindresorhus/sindresorhus/readme --template '{{.content}}')",
+      "Bash(gh api repos/antfu/antfu/readme --template '{{.content}}')"
+    ]
+  }
+}
