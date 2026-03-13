@@ -47,11 +47,11 @@
 ### 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [PPT Timer：一个置顶于PPT全屏放映之上的LCD倒计时器](https://juejin.cn/post/7615554532697636910) — Wed Mar 11 2026 5:48 AM
 - [用 AudioContext.suspend&lpar;&rpar;/resume&lpar;&rpar; 作为流式音视频的同步门控](https://juejin.cn/post/7615162276907515956) — Tue Mar 10 2026 5:27 AM
 - [React 事件订阅的稳定引用问题：从 useEffect 到 useEffectEvent](https://juejin.cn/post/7613392309822029887) — Thu Mar 05 2026 8:37 AM
 - [写了个脚本，把 Gitee/GitLab 仓库一键批量迁移到 GitHub](https://juejin.cn/post/7613374664555708443) — Thu Mar 05 2026 5:50 AM
-- [并发 401 下的 Token 刷新竞态：一个被低估的 Bug](https://juejin.cn/post/7613004898187903028) — Wed Mar 04 2026 8:22 AM
-- [Git Tag + Semver + CI/CD：从打标签到自动发布的完整实践](https://juejin.cn/post/7611820139811733558) — Mon Mar 02 2026 3:49 AM<!-- BLOG-POST-LIST:END -->
+- [并发 401 下的 Token 刷新竞态：一个被低估的 Bug](https://juejin.cn/post/7613004898187903028) — Wed Mar 04 2026 8:22 AM<!-- BLOG-POST-LIST:END -->
 
 ---
 
