@@ -7,36 +7,10 @@
 
 [![Juejin](https://img.shields.io/badge/掘金-0d1117?style=flat&logo=juejin&logoColor=1E80FF)](https://juejin.cn/user/1669474445171547)
 [![Blog](https://img.shields.io/badge/Blog-zengliangyi.cn-0d1117?style=flat&logo=safari&logoColor=00FF41)](https://www.zengliangyi.cn)
+[![Email](https://img.shields.io/badge/Email-z13480860940@gmail.com-0d1117?style=flat&logo=gmail&logoColor=EA4335)](mailto:z13480860940@gmail.com)
+[![WeChat](https://img.shields.io/badge/WeChat-13480860940-0d1117?style=flat&logo=wechat&logoColor=07C160)](#wechat-qrcode)
 
 </div>
-
----
-
-<!-- ====== CONTACT ====== -->
-
-### 📬 联系我
-
-<table>
-  <tr>
-    <td align="center">📧 <b>Email</b></td>
-    <td><a href="mailto:z13480860940@gmail.com">z13480860940@gmail.com</a></td>
-  </tr>
-  <tr>
-    <td align="center">📱 <b>Phone</b></td>
-    <td>13480860940</td>
-  </tr>
-  <tr>
-    <td align="center">💬 <b>WeChat</b></td>
-    <td>13480860940（扫码添加 👇）</td>
-  </tr>
-</table>
-
-<details>
-<summary>📎 微信二维码</summary>
-<br/>
-<!-- 将微信二维码图片放到仓库中，替换下方路径即可 -->
-<img src="./assets/wechat-qrcode.png" alt="WeChat QR Code" width="200" />
-</details>
 
 ---
 
@@ -96,5 +70,11 @@
 <br/><br/>
 
 <img src="https://komarev.com/ghpvc/?username=ZengLiangYi&color=00ff41&style=flat-square&label=PROFILE+VIEWS" />
+
+<details id="wechat-qrcode">
+<summary>💬 微信二维码</summary>
+<br/>
+<img src="./assets/wechat-qrcode.png" alt="WeChat QR Code" width="200" />
+</details>
 
 </div>
