@@ -9,8 +9,9 @@ name: Generate Profile Summary Cards
 
 on:
   schedule:
-    # 每 12 小时更新一次
-    - cron: "0 */12 * * *"
+    # 每 12 小时更新一次，错开 Blog Posts（00:00）避免冲突
+    # UTC 06:00 / 18:00（北京时间 14:00 / 02:00）
+    - cron: "0 6,18 * * *"
   workflow_dispatch: # 支持手动触发
 
 permissions:
@@ -33,5 +34,23 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
-          BRANCH_NAME: main
           UTC_OFFSET: 8
+          AUTO_PUSH: false
+
+      - name: Commit and push with rebase retry
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile-summary-card-output/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "Generate profile summary cards"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin main && exit 0
+            echo "Push failed, retry $i..."
+            sleep 5
+          done
+          echo "Push failed after 3 retries"
+          exit 1

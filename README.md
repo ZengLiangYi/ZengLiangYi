@@ -12,6 +12,34 @@
 
 ---
 
+<!-- ====== CONTACT ====== -->
+
+### 📬 联系我
+
+<table>
+  <tr>
+    <td align="center">📧 <b>Email</b></td>
+    <td><a href="mailto:z13480860940@gmail.com">z13480860940@gmail.com</a></td>
+  </tr>
+  <tr>
+    <td align="center">📱 <b>Phone</b></td>
+    <td>13480860940</td>
+  </tr>
+  <tr>
+    <td align="center">💬 <b>WeChat</b></td>
+    <td>13480860940（扫码添加 👇）</td>
+  </tr>
+</table>
+
+<details>
+<summary>📎 微信二维码</summary>
+<br/>
+<!-- 将微信二维码图片放到仓库中，替换下方路径即可 -->
+<img src="./assets/wechat-qrcode.png" alt="WeChat QR Code" width="200" />
+</details>
+
+---
+
 <!-- ====== TECH STACK ====== -->
 
 ### 🛠️ Tech Stack
