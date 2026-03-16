@@ -6,7 +6,6 @@
 **React / Vue / Flutter / Next.js — 构建企业级 Web 应用与 AI 产品**
 
 [![Juejin](https://img.shields.io/badge/掘金-0d1117?style=flat&logo=juejin&logoColor=1E80FF)](https://juejin.cn/user/1669474445171547)
-[![Blog](https://img.shields.io/badge/Blog-zengliangyi.cn-0d1117?style=flat&logo=safari&logoColor=00FF41)](https://www.zengliangyi.cn)
 [![Email](https://img.shields.io/badge/Email-z13480860940@gmail.com-0d1117?style=flat&logo=gmail&logoColor=EA4335)](mailto:z13480860940@gmail.com)
 [![WeChat](https://img.shields.io/badge/WeChat-13480860940-0d1117?style=flat&logo=wechat&logoColor=07C160)](#wechat-qrcode)
 
