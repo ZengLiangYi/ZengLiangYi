@@ -23,7 +23,7 @@ concurrency:
 jobs:
   update-readme-with-blog:
     name: Update README with latest blog posts
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - name: Checkout
