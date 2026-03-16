@@ -38,7 +38,7 @@
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ZengLiangYi&theme=react-dark&hide_border=true&bg_color=0D1117&color=00ff41&line=00ff41&point=FFFFFF" />
+<img height="160" src="./profile-summary-card-output/radical/0-profile-details.svg" />&nbsp;&nbsp;<img height="160" src="./profile-summary-card-output/radical/1-repos-per-language.svg" />
 
 </div>
 
