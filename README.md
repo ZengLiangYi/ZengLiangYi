@@ -70,10 +70,4 @@
 
 <img src="https://komarev.com/ghpvc/?username=ZengLiangYi&color=00ff41&style=flat-square&label=PROFILE+VIEWS" />
 
-<details id="wechat-qrcode">
-<summary>💬 微信二维码</summary>
-<br/>
-<img src="./assets/wechat-qrcode.png" alt="WeChat QR Code" width="200" />
-</details>
-
 </div>
