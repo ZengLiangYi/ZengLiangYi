@@ -1,0 +1,1022 @@
+{
+  "version": "2.9",
+  "children": [
+    {
+      "type": "frame",
+      "id": "bi8Au",
+      "x": 0,
+      "y": 0,
+      "name": "Frame",
+      "clip": true,
+      "width": 794,
+      "fill": "#0A0F1C",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": [
+        40,
+        48
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "miGVB",
+          "name": "header",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "children": [
+            {
+              "type": "frame",
+              "id": "1bPww",
+              "name": "nameRow",
+              "width": "fill_container",
+              "gap": 16,
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "PeKrO",
+                  "name": "nameText",
+                  "fill": "#FFFFFF",
+                  "content": "曾亮懿",
+                  "fontFamily": "Noto Sans SC",
+                  "fontSize": 36,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "1z4iS",
+                  "name": "enName",
+                  "fill": "#64748B",
+                  "content": "ZengLiangYi",
+                  "fontFamily": "Noto Sans SC",
+                  "fontSize": 18,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "fwHGS",
+              "name": "titleText",
+              "fill": "#22D3EE",
+              "content": "高级前端开发工程师",
+              "fontFamily": "Noto Sans SC",
+              "fontSize": 18,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "BCIas",
+              "name": "subtitleText",
+              "fill": "#94A3B8",
+              "content": "React / Vue / Flutter / Next.js — 构建企业级 Web 应用与 AI 产品",
+              "fontFamily": "Noto Sans SC",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "hhxRR",
+              "name": "contactRow",
+              "width": "fill_container",
+              "gap": 16,
+              "padding": [
+                12,
+                0,
+                0,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "7itDS",
+                  "name": "g1",
+                  "gap": 6,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "GgJ54",
+                      "name": "g1i",
+                      "width": 13,
+                      "height": 13,
+                      "iconFontName": "mail",
+                      "iconFontFamily": "lucide",
+                      "fill": "#22D3EE"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Ewd9H",
+                      "name": "g1t",
+                      "fill": "#94A3B8",
+                      "content": "z13480860940@gmail.com",
+                      "fontFamily": "Noto Sans SC",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "7pHaF",
+                  "name": "g2",
+                  "gap": 6,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "rAYRx",
+                      "name": "g2i",
+                      "width": 13,
+                      "height": 13,
+                      "iconFontName": "globe",
+                      "iconFontFamily": "lucide",
+                      "fill": "#22D3EE"
+                    },
+                    {
+                      "type": "text",
+                      "id": "rEFkf",
+                      "name": "g2t",
+                      "fill": "#94A3B8",
+                      "content": "zengliangyi.cn",
+                      "fontFamily": "Noto Sans SC",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "4rn4c",
+                  "name": "g3",
+                  "gap": 6,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "ogNC5",
+                      "name": "g3i",
+                      "width": 13,
+                      "height": 13,
+                      "iconFontName": "message-circle",
+                      "iconFontFamily": "lucide",
+                      "fill": "#22D3EE"
+                    },
+                    {
+                      "type": "text",
+                      "id": "uT7B5",
+                      "name": "g3t",
+                      "fill": "#94A3B8",
+                      "content": "WeChat: 13480860940",
+                      "fontFamily": "Noto Sans SC",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "d3Zua",
+          "name": "divider1",
+          "fill": "#1E293B",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "p7mID",
+          "name": "aboutSection",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "children": [
+            {
+              "type": "text",
+              "id": "L8Zr2",
+              "name": "aboutLabel",
+              "fill": "#22D3EE",
+              "content": "ABOUT",
+              "fontFamily": "Noto Sans SC",
+              "fontSize": 11,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "LIYfU",
+              "name": "aboutText",
+              "fill": "#94A3B8",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "专注于前端工程化与用户体验的全栈型前端开发者。擅长使用 React、Vue、Flutter 等主流框架构建高性能企业级应用，具备丰富的 AI 产品前端开发经验。热衷于技术分享，活跃于掘金社区，持续输出高质量技术文章。注重代码质量与团队协作，善于将复杂业务需求转化为优雅的技术方案。",
+              "lineHeight": 1.6,
+              "fontFamily": "Noto Sans SC",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "4DERq",
+          "name": "skillSection",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "children": [
+            {
+              "type": "text",
+              "id": "OPUKP",
+              "name": "skillLabel",
+              "fill": "#22D3EE",
+              "content": "TECH STACK",
+              "fontFamily": "Noto Sans SC",
+              "fontSize": 11,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "piaUW",
+              "name": "skillRow1",
+              "width": "fill_container",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "8Zyom",
+                  "name": "tag1",
+                  "fill": "#1E293B",
+                  "cornerRadius": 6,
+                  "padding": [
+                    6,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "JwOOx",
+                      "name": "tag1t",
+                      "fill": "#22D3EE",
+                      "content": "TypeScript",
+                      "fontFamily": "Noto Sans SC",
+                      "fontSize": 11,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "7R8J8",
+                  "name": "tag2",
+                  "fill": "#1E293B",
+                  "cornerRadius": 6,
+                  "padding": [
+                    6,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "xXobR",
+                      "name": "tag2t",
+                      "fill": "#22D3EE",
+                      "content": "React",
+                      "fontFamily": "Noto Sans SC",
+                      "fontSize": 11,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "zy8Qz",
+                  "name": "tag3",
+                  "fill": "#1E293B",
+                  "cornerRadius": 6,
+                  "padding": [
+                    6,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "UuPro",
+                      "name": "tag3t",
+                      "fill": "#22D3EE",
+                      "content": "Next.js",
+                      "fontFamily": "Noto Sans SC",
+                      "fontSize": 11,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "9BCCR",
+                  "name": "tag4",
+                  "fill": "#1E293B",
+                  "cornerRadius": 6,
+                  "padding": [
+                    6,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "kyBsE",
+                      "name": "tag4t",
+                      "fill": "#22D3EE",
+                      "content": "Vue.js",
+                      "fontFamily": "Noto Sans SC",
+                      "fontSize": 11,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "oYQ3P",
+                  "name": "tag5",
+                  "fill": "#1E293B",
+                  "cornerRadius": 6,
+                  "padding": [
+                    6,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "jPDbb",
+                      "name": "tag5t",
+                      "fill": "#22D3EE",
+                      "content": "Flutter",
+                      "fontFamily": "Noto Sans SC",
+                      "fontSize": 11,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qAzyE",
+                  "name": "tag6",
+                  "fill": "#1E293B",
+                  "cornerRadius": 6,
+                  "padding": [
+                    6,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "9wM5v",
+                      "name": "tag6t",
+                      "fill": "#22D3EE",
+                      "content": "JavaScript",
+                      "fontFamily": "Noto Sans SC",
+                      "fontSize": 11,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "9Y7hZ",
+              "name": "skillRow2",
+              "width": "fill_container",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "UGiWL",
+                  "name": "stag1",
+                  "fill": "#1E293B",
+                  "cornerRadius": 6,
+                  "padding": [
+                    6,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "rFEwt",
+                      "name": "stag1t",
+                      "fill": "#22D3EE",
+                      "content": "Ant Design",
+                      "fontFamily": "Noto Sans SC",
+                      "fontSize": 11,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ryPL3",
+                  "name": "stag2",
+                  "fill": "#1E293B",
+                  "cornerRadius": 6,
+                  "padding": [
+                    6,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "eCkz4",
+                      "name": "stag2t",
+                      "fill": "#22D3EE",
+                      "content": "Tailwind CSS",
+                      "fontFamily": "Noto Sans SC",
+                      "fontSize": 11,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "x2Tnc",
+                  "name": "stag3",
+                  "fill": "#1E293B",
+                  "cornerRadius": 6,
+                  "padding": [
+                    6,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Pego4",
+                      "name": "stag3t",
+                      "fill": "#22D3EE",
+                      "content": "Vite",
+                      "fontFamily": "Noto Sans SC",
+                      "fontSize": 11,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "crDDk",
+                  "name": "stag4",
+                  "fill": "#1E293B",
+                  "cornerRadius": 6,
+                  "padding": [
+                    6,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "bA5PO",
+                      "name": "stag4t",
+                      "fill": "#22D3EE",
+                      "content": "Git / CI/CD",
+                      "fontFamily": "Noto Sans SC",
+                      "fontSize": 11,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "8AtOY",
+                  "name": "stag5",
+                  "fill": "#1E293B",
+                  "cornerRadius": 6,
+                  "padding": [
+                    6,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "13x6L",
+                      "name": "stag5t",
+                      "fill": "#22D3EE",
+                      "content": "Docker",
+                      "fontFamily": "Noto Sans SC",
+                      "fontSize": 11,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "bt3E8",
+          "name": "divider2",
+          "fill": "#1E293B",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "ZR416",
+          "name": "projSection",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "children": [
+            {
+              "type": "text",
+              "id": "iRmyy",
+              "name": "projLabel",
+              "fill": "#22D3EE",
+              "content": "PROJECTS",
+              "fontFamily": "Noto Sans SC",
+              "fontSize": 11,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "sPjsI",
+              "name": "proj1",
+              "width": "fill_container",
+              "fill": "#1E293B",
+              "cornerRadius": 8,
+              "layout": "vertical",
+              "gap": 8,
+              "padding": [
+                16,
+                20
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ZJ0Gx",
+                  "name": "proj1Header",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "RvUuQ",
+                      "name": "proj1Title",
+                      "fill": "#FFFFFF",
+                      "content": "AI 实时数字人平台",
+                      "fontFamily": "Noto Sans SC",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "BdxTQ",
+                      "name": "proj1Tag",
+                      "fill": "#0F172A",
+                      "cornerRadius": 4,
+                      "padding": [
+                        3,
+                        8
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "n79Tt",
+                          "name": "proj1TagT",
+                          "fill": "#22D3EE",
+                          "content": "AI · Next.js",
+                          "fontFamily": "Noto Sans SC",
+                          "fontSize": 10,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "Lqhn6",
+                  "name": "proj1Desc",
+                  "fill": "#94A3B8",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "基于深度学习唇形同步模型的实时流式数字人平台，支持帧流/分段流/批量三种生成模式。前端采用 Next.js + TypeScript 构建，通过 Canvas 实时渲染 + Web Audio API 实现音视频精确同步，涵盖 AI 推理、流媒体与实时通信等技术。",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Noto Sans SC",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "jZ9xx",
+                  "name": "proj1Tech",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "ihT1u",
+                      "name": "TechIcon",
+                      "width": 14,
+                      "height": 14,
+                      "iconFontName": "swatch-book",
+                      "iconFontFamily": "lucide",
+                      "fill": "#64748B"
+                    },
+                    {
+                      "type": "text",
+                      "id": "nIQ8k",
+                      "name": "proj1Tech",
+                      "fill": "#64748B",
+                      "content": "Next.js · TypeScript · Canvas · Web Audio API · WebSocket",
+                      "fontFamily": "Noto Sans SC",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "6RaRX",
+              "name": "proj2",
+              "width": "fill_container",
+              "fill": "#1E293B",
+              "cornerRadius": 8,
+              "layout": "vertical",
+              "gap": 8,
+              "padding": [
+                16,
+                20
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "jTAU7",
+                  "name": "proj2Header",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "yodYv",
+                      "name": "proj2Title",
+                      "fill": "#FFFFFF",
+                      "content": "智慧医疗诊疗管理系统",
+                      "fontFamily": "Noto Sans SC",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "MO8p8",
+                      "name": "proj2Tag",
+                      "fill": "#0F172A",
+                      "cornerRadius": 4,
+                      "padding": [
+                        3,
+                        8
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "VwflR",
+                          "name": "proj2TagT",
+                          "fill": "#22D3EE",
+                          "content": "医疗 · React 19",
+                          "fontFamily": "Noto Sans SC",
+                          "fontSize": 10,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "gebj7",
+                  "name": "proj2Desc",
+                  "fill": "#94A3B8",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "面向某高校附属医院的 AI 辅助诊疗管理系统，包含完整 5 步智能诊疗流程、医患实时聊天（WebSocket）、药物管理与康复训练模块。前端代码量 460K+，采用 AI 对话组件实现智能问诊交互界面。",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Noto Sans SC",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "8Id2R",
+                  "name": "proj2Tech",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "zgjM8",
+                      "name": "TechIcon",
+                      "width": 14,
+                      "height": 14,
+                      "iconFontName": "swatch-book",
+                      "iconFontFamily": "lucide",
+                      "fill": "#64748B"
+                    },
+                    {
+                      "type": "text",
+                      "id": "tPXHC",
+                      "name": "proj2Tech",
+                      "fill": "#64748B",
+                      "content": "React 19 · Ant Design 6 · Ant Design X · UmiJS Max · Socket.IO",
+                      "fontFamily": "Noto Sans SC",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "1RT10",
+              "name": "proj3",
+              "width": "fill_container",
+              "fill": "#1E293B",
+              "cornerRadius": 8,
+              "layout": "vertical",
+              "gap": 8,
+              "padding": [
+                16,
+                20
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "UbRcY",
+                  "name": "proj3Header",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "a11ep",
+                      "name": "proj3Title",
+                      "fill": "#FFFFFF",
+                      "content": "双创活动管理平台",
+                      "fontFamily": "Noto Sans SC",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "CEYe9",
+                      "name": "proj3Tag",
+                      "fill": "#0F172A",
+                      "cornerRadius": 4,
+                      "padding": [
+                        3,
+                        8
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "u8b9T",
+                          "name": "proj3TagT",
+                          "fill": "#22D3EE",
+                          "content": "全栈 · SaaS",
+                          "fontFamily": "Noto Sans SC",
+                          "fontSize": 10,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "VNl4r",
+                  "name": "proj3Desc",
+                  "fill": "#94A3B8",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "面向高校双创场景的全栈管理平台，配套 Flutter 移动端与 Python 后端。采用模块化架构与并发渲染优化，集成响应式卡片布局、数据可视化分析与报表导出等企业级能力。",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Noto Sans SC",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "yEmxv",
+                  "name": "proj3Tech",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "r8AOm",
+                      "name": "TechIcon",
+                      "width": 14,
+                      "height": 14,
+                      "iconFontName": "swatch-book",
+                      "iconFontFamily": "lucide",
+                      "fill": "#64748B"
+                    },
+                    {
+                      "type": "text",
+                      "id": "HFqUo",
+                      "name": "proj3Tech",
+                      "fill": "#64748B",
+                      "content": "React 19 · Ant Design 5 · Ant Design Charts · UmiJS 4 · TypeScript",
+                      "fontFamily": "Noto Sans SC",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "KqDqu",
+          "name": "divider3",
+          "fill": "#1E293B",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "8LkkT",
+          "name": "blogSection",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "children": [
+            {
+              "type": "text",
+              "id": "uaIB7",
+              "name": "blogLabel",
+              "fill": "#22D3EE",
+              "content": "BLOG & WRITING",
+              "fontFamily": "Noto Sans SC",
+              "fontSize": 11,
+              "fontWeight": "600",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "3JZxr",
+              "name": "blogDesc",
+              "fill": "#94A3B8",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "活跃于掘金技术社区，持续输出前端工程化、React 生态、音视频开发等领域的深度技术文章。",
+              "lineHeight": 1.5,
+              "fontFamily": "Noto Sans SC",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "NdhpU",
+              "name": "blogList",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "6qjeV",
+                  "name": "b1",
+                  "width": "fill_container",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "RoSQY",
+                      "name": "BlogIcon",
+                      "width": 14,
+                      "height": 14,
+                      "iconFontName": "archive",
+                      "iconFontFamily": "lucide",
+                      "fill": "#22d3ee"
+                    },
+                    {
+                      "type": "text",
+                      "id": "oqnRr",
+                      "name": "b1t",
+                      "fill": "#FFFFFF",
+                      "content": "React 事件订阅的稳定引用问题：从 useEffect 到 useEffectEvent",
+                      "fontFamily": "Noto Sans SC",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "rnUVX",
+                  "name": "b2",
+                  "width": "fill_container",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "m1co3",
+                      "name": "BlogIcon",
+                      "width": 14,
+                      "height": 14,
+                      "iconFontName": "archive",
+                      "iconFontFamily": "lucide",
+                      "fill": "#22d3ee"
+                    },
+                    {
+                      "type": "text",
+                      "id": "vQDOG",
+                      "name": "b2t",
+                      "fill": "#FFFFFF",
+                      "content": "用 AudioContext.suspend()/resume() 作为流式音视频的同步门控",
+                      "fontFamily": "Noto Sans SC",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "k5QqF",
+          "name": "divider4",
+          "fill": "#1E293B",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "nm69c",
+          "name": "footer",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "un599",
+              "name": "footerLeft",
+              "gap": 6,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "6UGmA",
+                  "name": "ghIcon",
+                  "width": 14,
+                  "height": 14,
+                  "iconFontName": "github",
+                  "iconFontFamily": "lucide",
+                  "fill": "#64748B"
+                },
+                {
+                  "type": "text",
+                  "id": "Y7TJO",
+                  "name": "ghText",
+                  "fill": "#64748B",
+                  "content": "github.com/ZengLiangYi",
+                  "fontFamily": "Noto Sans SC",
+                  "fontSize": 11,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "ZF5mW",
+              "name": "footerRight",
+              "fill": "#475569",
+              "content": "Building the future, one commit at a time.",
+              "fontFamily": "Noto Sans SC",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
