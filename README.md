@@ -48,11 +48,11 @@
 ### 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [从文章到脚本：把 Git Tag + Semver + CI/CD 收敛成一个 `release.mjs`](https://juejin.cn/post/7621830561019969545) — Sat Mar 28 2026 8:50 AM
 - [用 1300 行原生 JS 做了一个 Chrome DevTools 扩展，让前后端不再为接口报错截图扯皮](https://juejin.cn/post/7616666752520749056) — Sat Mar 14 2026 9:58 AM
 - [PPT Timer：一个置顶于PPT全屏放映之上的LCD倒计时器](https://juejin.cn/post/7615554532697636910) — Wed Mar 11 2026 5:48 AM
 - [用 AudioContext.suspend&lpar;&rpar;/resume&lpar;&rpar; 作为流式音视频的同步门控](https://juejin.cn/post/7615162276907515956) — Tue Mar 10 2026 5:27 AM
-- [React 事件订阅的稳定引用问题：从 useEffect 到 useEffectEvent](https://juejin.cn/post/7613392309822029887) — Thu Mar 05 2026 8:37 AM
-- [写了个脚本，把 Gitee/GitLab 仓库一键批量迁移到 GitHub](https://juejin.cn/post/7613374664555708443) — Thu Mar 05 2026 5:50 AM<!-- BLOG-POST-LIST:END -->
+- [React 事件订阅的稳定引用问题：从 useEffect 到 useEffectEvent](https://juejin.cn/post/7613392309822029887) — Thu Mar 05 2026 8:37 AM<!-- BLOG-POST-LIST:END -->
 
 ---
 
