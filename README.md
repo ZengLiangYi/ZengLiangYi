@@ -48,11 +48,11 @@
 ### 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [Claude Code 用了半年，我总结了 5 个提效习惯（附工具推荐）](https://juejin.cn/post/7639192096592068618) — Thu May 14 2026 2:51 AM
-- [你和 AI 聊了上千轮，这些知识都去哪了？](https://juejin.cn/post/7624046493309239348) — Fri Apr 03 2026 3:05 AM
-- [从文章到脚本：把 Git Tag + Semver + CI/CD 收敛成一个 `release.mjs`](https://juejin.cn/post/7621830561019969545) — Sat Mar 28 2026 8:50 AM
-- [用 1300 行原生 JS 做了一个 Chrome DevTools 扩展，让前后端不再为接口报错截图扯皮](https://juejin.cn/post/7616666752520749056) — Sat Mar 14 2026 9:58 AM
-- [PPT Timer：一个置顶于PPT全屏放映之上的LCD倒计时器](https://juejin.cn/post/7615554532697636910) — Wed Mar 11 2026 5:48 AM<!-- BLOG-POST-LIST:END -->
+- [Claude Code 对话自动导入完全指南](https://juejin.cn/post/7639930076301967400) — Fri May 15 2026 8:42 AM
+- [LLM 和 Embedding 不能混用——一个血泪教训](https://juejin.cn/post/7639929221121720335) — Fri May 15 2026 8:41 AM
+- [ChatCrystal 零基础搭建：从安装到第一条笔记](https://juejin.cn/post/7639193311716556863) — Thu May 14 2026 4:39 AM
+- [Ollama 本地部署：零成本跑通本地大模型](https://juejin.cn/post/7639193311716540479) — Thu May 14 2026 4:24 AM
+- [Claude Code 用了半年，我总结了 5 个提效习惯（附工具推荐）](https://juejin.cn/post/7639192096592068618) — Thu May 14 2026 2:51 AM<!-- BLOG-POST-LIST:END -->
 
 ---
 
