@@ -48,11 +48,11 @@
 ### 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [Claude Code 对话自动导入完全指南](https://juejin.cn/post/7639930076301967400) — Fri May 15 2026 8:42 AM
-- [LLM 和 Embedding 不能混用——一个血泪教训](https://juejin.cn/post/7639929221121720335) — Fri May 15 2026 8:41 AM
-- [ChatCrystal 零基础搭建：从安装到第一条笔记](https://juejin.cn/post/7639193311716556863) — Thu May 14 2026 4:39 AM
-- [Ollama 本地部署：零成本跑通本地大模型](https://juejin.cn/post/7639193311716540479) — Thu May 14 2026 4:24 AM
-- [Claude Code 用了半年，我总结了 5 个提效习惯（附工具推荐）](https://juejin.cn/post/7639192096592068618) — Thu May 14 2026 2:51 AM<!-- BLOG-POST-LIST:END -->
+- [用知识库找回 3 天前的调试方案](https://juejin.cn/post/7640531093734670376) — Mon May 18 2026 3:08 AM
+- [云端 LLM 配置：OpenAI / Anthropic / Google 接入](https://juejin.cn/post/7640531093734637608) — Mon May 18 2026 3:07 AM
+- [Cursor 的 state.vscdb 解析踩坑记](https://juejin.cn/post/7640063917021167625) — Sun May 17 2026 6:28 AM
+- [Codex CLI / Trae / Copilot 数据源接入](https://juejin.cn/post/7640357289836281882) — Sun May 17 2026 6:24 AM
+- [AI Coding JSONL 里的系统标签噪音如何过滤](https://juejin.cn/post/7640053666326773798) — Sat May 16 2026 5:56 AM<!-- BLOG-POST-LIST:END -->
 
 ---
 
