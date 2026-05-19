@@ -1,8 +1,8 @@
 # ===========================================================
 # 博客文章自动抓取 Workflow
 # ----------------------------------------------------------
-# 通过 Docker Compose 启动本地 RSSHub 实例，
-# 将掘金文章转为 RSS Feed，再由 blog-post-workflow 更新 README
+# 直接读取 CSDN 官方 RSS Feed，
+# 再由 blog-post-workflow 更新 README
 # ===========================================================
 
 name: Latest Blog Posts
@@ -29,26 +29,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Start RSSHub via Docker Compose
-        run: docker compose up -d --wait
-        timeout-minutes: 3
-
-      - name: Verify RSSHub is serving Juejin feed
+      - name: Verify CSDN RSS feed
         run: |
-          echo "Testing RSSHub Juejin endpoint..."
-          curl -sf "http://localhost:1200/juejin/posts/1669474445171547" | head -c 500
+          echo "Testing CSDN RSS endpoint..."
+          curl -sf "https://rss.csdn.net/2201_75708499/rss/map" | head -c 500
           echo ""
-          echo "RSSHub is ready."
+          echo "CSDN RSS feed is ready."
 
       - name: Update README with latest blog posts
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          feed_list: "http://localhost:1200/juejin/posts/1669474445171547"
+          feed_list: "https://rss.csdn.net/2201_75708499/rss/map"
           max_post_count: "5"
           template: "$newline- [$title]($url) — $date"
           comment_tag_name: "BLOG-POST-LIST"
-          commit_message: "docs: update README with latest Juejin blog posts"
-
-      - name: Stop RSSHub
-        if: always()
-        run: docker compose down
+          commit_message: "docs: update README with latest CSDN blog posts"

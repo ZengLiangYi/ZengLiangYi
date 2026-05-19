@@ -6,6 +6,7 @@
 **React / Vue / Flutter / Next.js — 构建企业级 Web 应用与 AI 产品**
 
 [![Juejin](https://img.shields.io/badge/掘金-0d1117?style=flat&logo=juejin&logoColor=1E80FF)](https://juejin.cn/user/1669474445171547)
+[![CSDN](https://img.shields.io/badge/CSDN-0d1117?style=flat&logo=csdn&logoColor=FC5531)](https://blog.csdn.net/2201_75708499)
 [![Email](https://img.shields.io/badge/Email-z13480860940@gmail.com-0d1117?style=flat&logo=gmail&logoColor=EA4335)](mailto:z13480860940@gmail.com)
 [![WeChat](https://img.shields.io/badge/WeChat-13480860940-0d1117?style=flat&logo=wechat&logoColor=07C160)](#wechat-qrcode)
 
@@ -48,11 +49,11 @@
 ### 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [用知识库找回 3 天前的调试方案](https://juejin.cn/post/7640531093734670376) — Mon May 18 2026 3:08 AM
-- [云端 LLM 配置：OpenAI / Anthropic / Google 接入](https://juejin.cn/post/7640531093734637608) — Mon May 18 2026 3:07 AM
-- [Cursor 的 state.vscdb 解析踩坑记](https://juejin.cn/post/7640063917021167625) — Sun May 17 2026 6:28 AM
-- [Codex CLI / Trae / Copilot 数据源接入](https://juejin.cn/post/7640357289836281882) — Sun May 17 2026 6:24 AM
-- [AI Coding JSONL 里的系统标签噪音如何过滤](https://juejin.cn/post/7640053666326773798) — Sat May 16 2026 5:56 AM<!-- BLOG-POST-LIST:END -->
+- [Embedding 模型选型与配置](https://blog.csdn.net/2201_75708499/article/details/161226454) — Tue May 19 2026 9:07 AM
+- [用知识库找回 3 天前的调试方案](https://blog.csdn.net/2201_75708499/article/details/161186224) — Mon May 18 2026 2:48 AM
+- [云端 LLM 配置：OpenAI / Anthropic / Google 接入](https://blog.csdn.net/2201_75708499/article/details/161186043) — Mon May 18 2026 2:40 AM
+- [Cursor 的 state.vscdb 解析踩坑记](https://blog.csdn.net/2201_75708499/article/details/161165981) — Sun May 17 2026 6:15 AM
+- [Codex CLI / Trae / Copilot 数据源接入](https://blog.csdn.net/2201_75708499/article/details/161141970) — Sun May 17 2026 6:07 AM<!-- BLOG-POST-LIST:END -->
 
 ---
 
