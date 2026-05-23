@@ -49,11 +49,11 @@
 ### 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [MCP + Claude Code：新对话自动回忆历史经验](https://blog.csdn.net/2201_75708499/article/details/161317532) — Fri May 22 2026 7:10 AM
+- [MCP Server 集成：让 AI Agent 自动调用知识库](https://blog.csdn.net/2201_75708499/article/details/161316641) — Fri May 22 2026 7:05 AM
 - [sql.js WASM 实战：浏览器里跑 SQLite](https://blog.csdn.net/2201_75708499/article/details/161289833) — Thu May 21 2026 9:14 AM
 - [知识图谱：笔记关系发现与可视化](https://blog.csdn.net/2201_75708499/article/details/161289725) — Thu May 21 2026 9:10 AM
-- [vectra 向量索引文件损坏怎么办](https://blog.csdn.net/2201_75708499/article/details/161262109) — Wed May 20 2026 10:00 AM
-- [语义搜索实战：从关键词到向量检索](https://blog.csdn.net/2201_75708499/article/details/161255418) — Wed May 20 2026 9:58 AM
-- [用 ChatCrystal 学 Fastify：从零搭建 REST API](https://blog.csdn.net/2201_75708499/article/details/161226475) — Tue May 19 2026 9:18 AM<!-- BLOG-POST-LIST:END -->
+- [vectra 向量索引文件损坏怎么办](https://blog.csdn.net/2201_75708499/article/details/161262109) — Wed May 20 2026 10:00 AM<!-- BLOG-POST-LIST:END -->
 
 ---
 
