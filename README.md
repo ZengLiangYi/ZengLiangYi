@@ -49,11 +49,11 @@
 ### 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Tailwind CSS v4 + Vite：现代前端样式方案](https://blog.csdn.net/2201_75708499/article/details/161338826) — Mon May 25 2026 1:00 AM
+- [ChatCrystal大量对话导入时的内存优化](https://blog.csdn.net/2201_75708499/article/details/161338998) — Mon May 25 2026 12:00 AM
 - [nomic-embed-text vs text-embedding-3-small 横评](https://blog.csdn.net/2201_75708499/article/details/161338103) — Sat May 23 2026 3:23 AM
 - [Ollama vs OpenAI vs Claude 做摘要，质量差距有多大](https://blog.csdn.net/2201_75708499/article/details/161337926) — Sat May 23 2026 3:18 AM
-- [MCP + Claude Code：新对话自动回忆历史经验](https://blog.csdn.net/2201_75708499/article/details/161317532) — Fri May 22 2026 7:10 AM
-- [MCP Server 集成：让 AI Agent 自动调用知识库](https://blog.csdn.net/2201_75708499/article/details/161316641) — Fri May 22 2026 7:05 AM
-- [sql.js WASM 实战：浏览器里跑 SQLite](https://blog.csdn.net/2201_75708499/article/details/161289833) — Thu May 21 2026 9:14 AM<!-- BLOG-POST-LIST:END -->
+- [MCP + Claude Code：新对话自动回忆历史经验](https://blog.csdn.net/2201_75708499/article/details/161317532) — Fri May 22 2026 7:10 AM<!-- BLOG-POST-LIST:END -->
 
 ---
 
