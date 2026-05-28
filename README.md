@@ -49,11 +49,11 @@
 ### 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [MCP 协议从零实现：手写最简 MCP Server](https://blog.csdn.net/2201_75708499/article/details/161459951) — Thu May 28 2026 12:30 AM
+- [Prompt 工程：让 LLM 输出结构化 JSON](https://blog.csdn.net/2201_75708499/article/details/161459888) — Thu May 28 2026 12:00 AM
 - [vectra 实战：纯 JS 本地向量搜索引擎](https://blog.csdn.net/2201_75708499/article/details/161428407) — Wed May 27 2026 12:30 AM
 - [生产环境部署：Fastify 静态服务 + SPA fallback](https://blog.csdn.net/2201_75708499/article/details/161428330) — Wed May 27 2026 12:00 AM
-- [从零实现 Embedding 服务：文本转向量](https://blog.csdn.net/2201_75708499/article/details/161397396) — Tue May 26 2026 12:30 AM
-- [系统托盘 + 窗口状态持久化：Electron 细节](https://blog.csdn.net/2201_75708499/article/details/161397324) — Tue May 26 2026 12:00 AM
-- [Vercel AI SDK 入门：一行代码切换 LLM Provider](https://blog.csdn.net/2201_75708499/article/details/161394526) — Mon May 25 2026 7:36 AM<!-- BLOG-POST-LIST:END -->
+- [从零实现 Embedding 服务：文本转向量](https://blog.csdn.net/2201_75708499/article/details/161397396) — Tue May 26 2026 12:30 AM<!-- BLOG-POST-LIST:END -->
 
 ---
 
