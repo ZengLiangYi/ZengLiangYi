@@ -49,11 +49,11 @@
 ### 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [如何解析 5 种完全不同格式的 AI 对话](https://blog.csdn.net/2201_75708499/article/details/161521661) — Sun May 31 2026 1:30 AM
+- [SourceAdapter 插件架构详解](https://blog.csdn.net/2201_75708499/article/details/161521606) — Sun May 31 2026 1:00 AM
 - [语义搜索 + 知识图谱：发现代码重构的隐藏依赖](https://blog.csdn.net/2201_75708499/article/details/161521565) — Sat May 30 2026 1:30 AM
 - [多格式文件解析：JSONL / SQLite / Event Stream](https://blog.csdn.net/2201_75708499/article/details/161521521) — Sat May 30 2026 1:00 AM
-- [任务队列设计：p-queue 限速 + 重试策略](https://blog.csdn.net/2201_75708499/article/details/161491593) — Fri May 29 2026 12:30 AM
-- [插件式架构设计：SourceAdapter 接口抽象](https://blog.csdn.net/2201_75708499/article/details/161491499) — Fri May 29 2026 12:00 AM
-- [MCP 协议从零实现：手写最简 MCP Server](https://blog.csdn.net/2201_75708499/article/details/161459951) — Thu May 28 2026 12:30 AM<!-- BLOG-POST-LIST:END -->
+- [任务队列设计：p-queue 限速 + 重试策略](https://blog.csdn.net/2201_75708499/article/details/161491593) — Fri May 29 2026 12:30 AM<!-- BLOG-POST-LIST:END -->
 
 ---
 
