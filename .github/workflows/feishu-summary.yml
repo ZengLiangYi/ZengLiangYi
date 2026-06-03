@@ -1,0 +1,334 @@
+# ===========================================================
+# 飞书自动化汇总通知
+# -----------------------------------------------------------
+# 每天汇总 Profile README 相关工作流的最近一次运行状态，
+# 只向飞书发送一条总消息。
+# ===========================================================
+
+name: Feishu Actions Summary
+
+on:
+  schedule:
+    # 每天 UTC 16:15 运行（北京时间次日 00:15）
+    # 统计刚刚结束的北京时间昨日数据
+    - cron: "15 16 * * *"
+  workflow_dispatch:
+
+permissions:
+  actions: read
+  contents: write
+
+concurrency:
+  group: commit-to-main
+  cancel-in-progress: false
+
+jobs:
+  notify:
+    name: Send Feishu summary
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Send Feishu summary
+        env:
+          GH_TOKEN: ${{ github.token }}
+          FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
+          REPOSITORY: ${{ github.repository }}
+          SERVER_URL: ${{ github.server_url }}
+          GITHUB_STATS_SNAPSHOT: .github/metrics/github-stats-snapshot.json
+        run: |
+          python - <<'PY'
+          import base64
+          import datetime as dt
+          import json
+          import os
+          from pathlib import Path
+          import urllib.error
+          import urllib.request
+
+          repo = os.environ["REPOSITORY"]
+          owner = repo.split("/", 1)[0]
+          token = os.environ["GH_TOKEN"]
+          webhook = os.environ.get("FEISHU_WEBHOOK", "")
+          snapshot_path = Path(os.environ["GITHUB_STATS_SNAPSHOT"])
+
+          workflows = [
+              ("Latest Blog Posts", "blog-post-workflow.yml"),
+              ("Generate Snake Animation", "snake.yml"),
+              ("Generate Profile Summary Cards", "profile-summary-cards.yml"),
+          ]
+
+          labels = {
+              "success": "成功",
+              "failure": "失败",
+              "cancelled": "已取消",
+              "skipped": "已跳过",
+              "timed_out": "超时",
+              "action_required": "需要处理",
+              "startup_failure": "启动失败",
+              "neutral": "中性",
+              "queued": "排队中",
+              "in_progress": "运行中",
+              "waiting": "等待中",
+              "requested": "已请求",
+              "pending": "等待中",
+              "completed": "已完成",
+          }
+          bad_states = {"failure", "timed_out", "action_required", "startup_failure"}
+          warning_states = {"cancelled", "skipped"}
+
+          def fetch_json(url):
+              request = urllib.request.Request(
+                  url,
+                  headers={
+                      "Accept": "application/vnd.github+json",
+                      "Authorization": f"Bearer {token}",
+                      "X-GitHub-Api-Version": "2022-11-28",
+                      "User-Agent": "profile-readme-feishu-summary",
+                  },
+              )
+              with urllib.request.urlopen(request, timeout=30) as response:
+                  return json.loads(response.read().decode("utf-8"))
+
+          def fetch_readme():
+              url = f"https://api.github.com/repos/{repo}/contents/README.md?ref=main"
+              data = fetch_json(url)
+              return base64.b64decode(data["content"]).decode("utf-8")
+
+          def fetch_user_stats():
+              user = fetch_json(f"https://api.github.com/users/{owner}")
+              page = 1
+              public_repos = []
+
+              while True:
+                  repos_url = f"https://api.github.com/users/{owner}/repos?type=owner&per_page=100&page={page}"
+                  repos = fetch_json(repos_url)
+                  if not repos:
+                      break
+                  public_repos.extend(repos)
+                  page += 1
+
+              return {
+                  "followers": user.get("followers", 0),
+                  "public_repos": user.get("public_repos", len(public_repos)),
+                  "total_stars": sum(repo.get("stargazers_count", 0) for repo in public_repos),
+              }
+
+          def read_previous_snapshot():
+              if not snapshot_path.exists():
+                  return None
+              try:
+                  return json.loads(snapshot_path.read_text(encoding="utf-8"))
+              except Exception as error:
+                  print(f"Failed to read previous GitHub stats snapshot: {error}")
+                  return None
+
+          def write_current_snapshot(stats):
+              now = dt.datetime.now(dt.timezone(dt.timedelta(hours=8)))
+              snapshot = {
+                  "date": now.strftime("%Y-%m-%d"),
+                  "captured_at": now.isoformat(timespec="seconds"),
+                  "owner": owner,
+                  **stats,
+              }
+              snapshot_path.parent.mkdir(parents=True, exist_ok=True)
+              snapshot_path.write_text(
+                  json.dumps(snapshot, ensure_ascii=False, indent=2) + "\n",
+                  encoding="utf-8",
+              )
+              return snapshot
+
+          def format_delta(current, previous):
+              if not isinstance(current, (int, float)) or not isinstance(previous, (int, float)):
+                  return "首次记录"
+              delta = current - previous
+              sign = "+" if delta > 0 else ""
+              return f"{sign}{delta}"
+
+          def append_github_stats(lines):
+              previous = read_previous_snapshot()
+              current_stats = fetch_user_stats()
+              current = write_current_snapshot(current_stats)
+              previous_captured_at = previous.get("captured_at") if previous else None
+              current_captured_at = current.get("captured_at")
+
+              lines.extend(["", "**GitHub 昨日概览**"])
+              if previous_captured_at:
+                  lines.append(f"统计周期: {format_time(previous_captured_at)} -> {format_time(current_captured_at)}")
+              else:
+                  lines.append("统计周期: 首次记录")
+
+              lines.extend([
+                  f"粉丝: {current['followers']} ({format_delta(current['followers'], previous.get('followers') if previous else None)})",
+                  f"仓库星标: {current['total_stars']} ({format_delta(current['total_stars'], previous.get('total_stars') if previous else None)})",
+                  f"公开仓库: {current['public_repos']} ({format_delta(current['public_repos'], previous.get('public_repos') if previous else None)})",
+              ])
+
+          def extract_blog_posts(readme, limit=5):
+              start_marker = "<!-- BLOG-POST-LIST:START -->"
+              end_marker = "<!-- BLOG-POST-LIST:END -->"
+
+              if start_marker not in readme or end_marker not in readme:
+                  return []
+
+              section = readme.split(start_marker, 1)[1].split(end_marker, 1)[0]
+              posts = []
+              for line in section.splitlines():
+                  line = line.strip()
+                  if line.startswith("- "):
+                      posts.append(line)
+              return posts[:limit]
+
+          def read_latest_blog_posts():
+              try:
+                  return extract_blog_posts(fetch_readme())
+              except Exception as error:
+                  print(f"Failed to read latest blog posts: {error}")
+                  return []
+
+          def parse_time(value):
+              if not value:
+                  return None
+              return dt.datetime.fromisoformat(value.replace("Z", "+00:00"))
+
+          def format_time(value):
+              parsed = parse_time(value)
+              if not parsed:
+                  return "-"
+              beijing = parsed.astimezone(dt.timezone(dt.timedelta(hours=8)))
+              return beijing.strftime("%Y-%m-%d %H:%M")
+
+          beijing_tz = dt.timezone(dt.timedelta(hours=8))
+          now_beijing = dt.datetime.now(beijing_tz)
+          target_date = (now_beijing - dt.timedelta(days=1)).date()
+          target_start = dt.datetime.combine(target_date, dt.time.min, tzinfo=beijing_tz)
+          target_end = target_start + dt.timedelta(days=1)
+
+          lines = [
+              f"**统计日期**: {target_date.strftime('%Y-%m-%d')} (UTC+8)",
+          ]
+          states = []
+          latest_blog_posts = read_latest_blog_posts()
+          append_github_stats(lines)
+
+          for display_name, workflow_file in workflows:
+              url = f"https://api.github.com/repos/{repo}/actions/workflows/{workflow_file}/runs?per_page=20"
+              runs = fetch_json(url).get("workflow_runs", [])
+              yesterday_runs = []
+
+              for run in runs:
+                  started_at = parse_time(run.get("run_started_at") or run.get("created_at"))
+                  if not started_at:
+                      continue
+                  started_at = started_at.astimezone(beijing_tz)
+                  if target_start <= started_at < target_end:
+                      yesterday_runs.append(run)
+
+              if not yesterday_runs:
+                  states.append("missing")
+                  lines.extend(["", f"**{display_name}**", "结果: 昨日未运行"])
+                  continue
+
+              run_states = [run.get("conclusion") or run.get("status") or "unknown" for run in yesterday_runs]
+              states.extend(run_states)
+              latest_run = max(yesterday_runs, key=lambda run: run.get("updated_at") or run.get("created_at") or "")
+              run_url = latest_run.get("html_url", "")
+              run_number = latest_run.get("run_number", "-")
+              finished_at = format_time(latest_run.get("updated_at"))
+
+              success_count = sum(state == "success" for state in run_states)
+              failure_count = sum(state in bad_states for state in run_states)
+              warning_count = sum(state in warning_states for state in run_states)
+              other_count = len(run_states) - success_count - failure_count - warning_count
+              result_parts = []
+              if success_count:
+                  result_parts.append(f"成功 {success_count}")
+              if failure_count:
+                  result_parts.append(f"失败 {failure_count}")
+              if warning_count:
+                  result_parts.append(f"需留意 {warning_count}")
+              if other_count:
+                  result_parts.append(f"其他 {other_count}")
+
+              lines.extend([
+                  "",
+                  f"**{display_name}**",
+                  f"结果: {' / '.join(result_parts)}",
+                  f"最近完成: {finished_at}",
+                  f"最近运行: [#{run_number}]({run_url})",
+              ])
+
+              if workflow_file == "blog-post-workflow.yml":
+                  if latest_blog_posts:
+                      lines.extend(["文章:"] + latest_blog_posts)
+                  else:
+                      lines.append("文章: 未读取到 README 博客列表")
+
+          if any(state in bad_states for state in states):
+              template = "red"
+              title = "Profile 自动化汇总：有失败"
+          elif any(state in warning_states or state == "missing" for state in states):
+              template = "orange"
+              title = "Profile 自动化汇总：需留意"
+          elif all(state == "success" for state in states):
+              template = "green"
+              title = "Profile 自动化汇总：全部成功"
+          else:
+              template = "blue"
+              title = "Profile 自动化汇总：运行中"
+
+          payload = {
+              "msg_type": "interactive",
+              "card": {
+                  "header": {
+                      "template": template,
+                      "title": {
+                          "tag": "plain_text",
+                          "content": title,
+                      },
+                  },
+                  "elements": [
+                      {
+                          "tag": "markdown",
+                          "content": "\n".join(lines),
+                      }
+                  ],
+              },
+          }
+
+          if webhook:
+              request = urllib.request.Request(
+                  webhook,
+                  data=json.dumps(payload, ensure_ascii=False).encode("utf-8"),
+                  headers={"Content-Type": "application/json"},
+                  method="POST",
+              )
+              try:
+                  with urllib.request.urlopen(request, timeout=30) as response:
+                      print(response.read().decode("utf-8"))
+              except urllib.error.HTTPError as error:
+                  print(error.read().decode("utf-8"))
+                  raise
+          else:
+              print("FEISHU_WEBHOOK is not configured, skipping Feishu notification.")
+          PY
+
+      - name: Commit GitHub stats snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .github/metrics/github-stats-snapshot.json
+          if git diff --cached --quiet; then
+            echo "No GitHub stats snapshot changes to commit"
+            exit 0
+          fi
+          git commit -m "chore: update GitHub stats snapshot"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin main && exit 0
+            echo "Push failed, retry $i..."
+            sleep 5
+          done
+          echo "Push failed after 3 retries"
+          exit 1
