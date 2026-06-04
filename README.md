@@ -49,11 +49,11 @@
 ### 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [本地优先 vs 云端：AI 工具的隐私之争](https://blog.csdn.net/2201_75708499/article/details/161662318) — Thu Jun 04 2026 12:30 AM
+- [AI 编程工具的数据格式为什么不能统一](https://blog.csdn.net/2201_75708499/article/details/161661771) — Thu Jun 04 2026 12:00 AM
 - [MCP 协议到底解决了什么问题](https://blog.csdn.net/2201_75708499/article/details/161631074) — Wed Jun 03 2026 1:00 AM
 - [Vercel AI SDK 多 Provider 统一抽象](https://blog.csdn.net/2201_75708499/article/details/161631047) — Wed Jun 03 2026 12:45 AM
-- [vectra 本地向量搜索的实现原理](https://blog.csdn.net/2201_75708499/article/details/161630894) — Tue Jun 02 2026 9:56 AM
-- [sql.js WASM 深度解析](https://blog.csdn.net/2201_75708499/article/details/161630873) — Tue Jun 02 2026 9:53 AM
-- [React Query + REST API 最佳实践](https://blog.csdn.net/2201_75708499/article/details/161521763) — Mon Jun 01 2026 2:41 AM<!-- BLOG-POST-LIST:END -->
+- [vectra 本地向量搜索的实现原理](https://blog.csdn.net/2201_75708499/article/details/161630894) — Tue Jun 02 2026 9:56 AM<!-- BLOG-POST-LIST:END -->
 
 ---
 
