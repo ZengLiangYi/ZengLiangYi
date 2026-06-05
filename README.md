@@ -49,11 +49,11 @@
 ### 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [AI Agent 时代的知识库应该长什么样](https://blog.csdn.net/2201_75708499/article/details/161690364) — Fri Jun 05 2026 1:00 AM
+- [从 RAG 到知识图谱：个人知识管理的演进](https://blog.csdn.net/2201_75708499/article/details/161689198) — Fri Jun 05 2026 12:45 AM
 - [本地优先 vs 云端：AI 工具的隐私之争](https://blog.csdn.net/2201_75708499/article/details/161662318) — Thu Jun 04 2026 12:30 AM
 - [AI 编程工具的数据格式为什么不能统一](https://blog.csdn.net/2201_75708499/article/details/161661771) — Thu Jun 04 2026 12:00 AM
-- [MCP 协议到底解决了什么问题](https://blog.csdn.net/2201_75708499/article/details/161631074) — Wed Jun 03 2026 1:00 AM
-- [Vercel AI SDK 多 Provider 统一抽象](https://blog.csdn.net/2201_75708499/article/details/161631047) — Wed Jun 03 2026 12:45 AM
-- [vectra 本地向量搜索的实现原理](https://blog.csdn.net/2201_75708499/article/details/161630894) — Tue Jun 02 2026 9:56 AM<!-- BLOG-POST-LIST:END -->
+- [MCP 协议到底解决了什么问题](https://blog.csdn.net/2201_75708499/article/details/161631074) — Wed Jun 03 2026 1:00 AM<!-- BLOG-POST-LIST:END -->
 
 ---
 
