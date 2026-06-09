@@ -49,11 +49,11 @@
 ### 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [本地向量数据库选型：vectra vs chroma vs hnswlib](https://blog.csdn.net/2201_75708499/article/details/161790123) — Tue Jun 09 2026 1:00 AM
+- [5 种 AI 对话数据格式全解析](https://blog.csdn.net/2201_75708499/article/details/161789991) — Tue Jun 09 2026 12:45 AM
 - [版本管理：npm 发布 + Electron 打包 + CI/CD](https://blog.csdn.net/2201_75708499/article/details/161789866) — Mon Jun 08 2026 1:56 AM
 - [测试策略：单元测试 + 集成测试怎么写](https://blog.csdn.net/2201_75708499/article/details/161789730) — Mon Jun 08 2026 1:54 AM
-- [困扰我多年的“今天写啥“,被这个选题功能解决了大半](https://blog.csdn.net/2201_75708499/article/details/161749849) — Sat Jun 06 2026 10:02 AM
-- [用了一周 CSDN 的 AI 数字营销平台,我把它从头到尾摸了个遍](https://blog.csdn.net/2201_75708499/article/details/161738993) — Sat Jun 06 2026 7:51 AM
-- [代码规范：ESLint + Prettier 配置实战](https://blog.csdn.net/2201_75708499/article/details/161725591) — Sat Jun 06 2026 1:00 AM<!-- BLOG-POST-LIST:END -->
+- [困扰我多年的“今天写啥“,被这个选题功能解决了大半](https://blog.csdn.net/2201_75708499/article/details/161749849) — Sat Jun 06 2026 10:02 AM<!-- BLOG-POST-LIST:END -->
 
 ---
 
