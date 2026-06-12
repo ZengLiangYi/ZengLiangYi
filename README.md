@@ -49,11 +49,11 @@
 ### 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [我用知识图谱发现了一个重构的隐藏依赖](https://blog.csdn.net/2201_75708499/article/details/161899813) — Fri Jun 12 2026 1:00 AM
+- [用 ChatCrystal 管理团队知识：多人协作方案](https://blog.csdn.net/2201_75708499/article/details/161899777) — Fri Jun 12 2026 12:45 AM
 - [从 ChatCrystal 导出到 Obsidian 的工作流](https://blog.csdn.net/2201_75708499/article/details/161867866) — Thu Jun 11 2026 1:00 AM
 - [CLI 自动化：构建知识管理流水线](https://blog.csdn.net/2201_75708499/article/details/161867829) — Thu Jun 11 2026 12:45 AM
-- [批量导入 1000 条对话的性能优化实战](https://blog.csdn.net/2201_75708499/article/details/161829349) — Wed Jun 10 2026 1:00 AM
-- [AI 编程工具对话管理方案对比](https://blog.csdn.net/2201_75708499/article/details/161790330) — Wed Jun 10 2026 12:45 AM
-- [GEO 到底是不是噱头?我把这平台的两套优化机制都实测了一遍](https://blog.csdn.net/2201_75708499/article/details/161803633) — Tue Jun 09 2026 5:38 AM<!-- BLOG-POST-LIST:END -->
+- [批量导入 1000 条对话的性能优化实战](https://blog.csdn.net/2201_75708499/article/details/161829349) — Wed Jun 10 2026 1:00 AM<!-- BLOG-POST-LIST:END -->
 
 ---
 
