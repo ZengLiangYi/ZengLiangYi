@@ -7,7 +7,7 @@
 
 AI Agents · Developer Tools · Full-stack Delivery · React / Vue / Flutter / Next.js
 
-用前端体验、后端能力和自动化交付，把 AI Agent 工作流与产品想法做成可用系统。
+关注 AI Agent 与开发者工具，喜欢把想法做成能跑、能用、能持续迭代的产品。
 
 [![Juejin](https://img.shields.io/badge/Juejin-0d1117?style=flat&logo=juejin&logoColor=1E80FF)](https://juejin.cn/user/1669474445171547)
 [![CSDN](https://img.shields.io/badge/CSDN-0d1117?style=flat&logo=csdn&logoColor=FC5531)](https://blog.csdn.net/2201_75708499)
