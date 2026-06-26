@@ -21,7 +21,7 @@ React / Vue / Flutter / Next.js · AI Workflow · Knowledge Management
 
 <!-- ====== TECH STACK ====== -->
 
-<h3><img src="./assets/icons/stack.svg" width="20" alt="" /> Tech Stack / 技术栈</h3>
+<h3><img src="./assets/icons/stack.svg" width="20" height="20" align="center" alt="" /> Tech Stack / 技术栈</h3>
 
 **Web & App Products / Web 与应用产品**
 
@@ -50,7 +50,7 @@ React / Vue / Flutter / Next.js · AI Workflow · Knowledge Management
 
 <!-- ====== GITHUB STATS ====== -->
 
-<h3><img src="./assets/icons/stats.svg" width="20" alt="" /> GitHub Stats / 数据概览</h3>
+<h3><img src="./assets/icons/stats.svg" width="20" height="20" align="center" alt="" /> GitHub Stats / 数据概览</h3>
 
 <div align="center">
 
@@ -62,7 +62,7 @@ React / Vue / Flutter / Next.js · AI Workflow · Knowledge Management
 
 <!-- ====== BLOG POSTS ====== -->
 
-<h3><img src="./assets/icons/blog.svg" width="20" alt="" /> Latest Blog Posts / 最新文章</h3>
+<h3><img src="./assets/icons/blog.svg" width="20" height="20" align="center" alt="" /> Latest Blog Posts / 最新文章</h3>
 
 <!-- BLOG-POST-LIST:START -->
 - [AI 编程 5000 条对话后的复盘与反思](https://blog.csdn.net/2201_75708499/article/details/162089004) — Thu Jun 18 2026 1:59 AM
@@ -85,7 +85,7 @@ React / Vue / Flutter / Next.js · AI Workflow · Knowledge Management
 
 <br/><br/>
 
-<h3 id="wechat-qrcode"><img src="./assets/icons/message.svg" width="20" alt="" /> WeChat / 微信</h3>
+<h3 id="wechat-qrcode"><img src="./assets/icons/message.svg" width="20" height="20" align="center" alt="" /> WeChat / 微信</h3>
 
 <img width="190" src="./assets/wechat-qrcode.png" alt="WeChat QR Code" />
 
