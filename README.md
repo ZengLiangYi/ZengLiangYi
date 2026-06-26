@@ -3,11 +3,11 @@
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&random=false&width=600&lines=Building+the+future%2C;one+commit+at+a+time." alt="Typing SVG" /></a>
 
-**Product-minded Frontend Engineer focused on AI knowledge tools and full-stack product delivery.**
+**Product-minded Frontend Engineer building AI agent workflows and full-stack products.**
 
-AI Knowledge Tools · Full-stack Delivery · React / Vue / Flutter / Next.js
+AI Agents · Developer Tools · Full-stack Delivery · React / Vue / Flutter / Next.js
 
-用前端体验、后端能力和自动化交付，把 AI 工作流与知识管理想法做成可用产品。
+用前端体验、后端能力和自动化交付，把 AI Agent 工作流与产品想法做成可用系统。
 
 [![Juejin](https://img.shields.io/badge/Juejin-0d1117?style=flat&logo=juejin&logoColor=1E80FF)](https://juejin.cn/user/1669474445171547)
 [![CSDN](https://img.shields.io/badge/CSDN-0d1117?style=flat&logo=csdn&logoColor=FC5531)](https://blog.csdn.net/2201_75708499)
