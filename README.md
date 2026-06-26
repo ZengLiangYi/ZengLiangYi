@@ -3,11 +3,11 @@
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&random=false&width=600&lines=Building+the+future%2C;one+commit+at+a+time." alt="Typing SVG" /></a>
 
-**Frontend Engineer with full-stack delivery experience, building Web Apps, AI Products, and Knowledge Tools.**
+**Product-minded Frontend Engineer focused on AI knowledge tools and full-stack product delivery.**
 
-React / Vue / Flutter / Next.js · AI Workflow · Knowledge Management
+AI Knowledge Tools · Full-stack Delivery · React / Vue / Flutter / Next.js
 
-记录工程实践，也持续探索 AI 如何改变个人与团队的工作流。
+用前端体验、后端能力和自动化交付，把 AI 工作流与知识管理想法做成可用产品。
 
 [![Juejin](https://img.shields.io/badge/Juejin-0d1117?style=flat&logo=juejin&logoColor=1E80FF)](https://juejin.cn/user/1669474445171547)
 [![CSDN](https://img.shields.io/badge/CSDN-0d1117?style=flat&logo=csdn&logoColor=FC5531)](https://blog.csdn.net/2201_75708499)
@@ -21,7 +21,7 @@ React / Vue / Flutter / Next.js · AI Workflow · Knowledge Management
 
 <!-- ====== TECH STACK ====== -->
 
-<h3><img src="./assets/icons/stack.svg" width="20" height="20" align="absmiddle" alt="" /> Tech Stack / 技术栈</h3>
+<h3>Tech Stack / 技术栈</h3>
 
 **Web & App Products / Web 与应用产品**
 
@@ -50,7 +50,7 @@ React / Vue / Flutter / Next.js · AI Workflow · Knowledge Management
 
 <!-- ====== GITHUB STATS ====== -->
 
-<h3><img src="./assets/icons/stats.svg" width="20" height="20" align="absmiddle" alt="" /> GitHub Stats / 数据概览</h3>
+<h3>GitHub Stats / 数据概览</h3>
 
 <div align="center">
 
@@ -62,7 +62,7 @@ React / Vue / Flutter / Next.js · AI Workflow · Knowledge Management
 
 <!-- ====== BLOG POSTS ====== -->
 
-<h3><img src="./assets/icons/blog.svg" width="20" height="20" align="absmiddle" alt="" /> Latest Blog Posts / 最新文章</h3>
+<h3>Latest Blog Posts / 最新文章</h3>
 
 <!-- BLOG-POST-LIST:START -->
 - [AI 编程 5000 条对话后的复盘与反思](https://blog.csdn.net/2201_75708499/article/details/162089004) — Thu Jun 18 2026 1:59 AM
@@ -85,7 +85,7 @@ React / Vue / Flutter / Next.js · AI Workflow · Knowledge Management
 
 <br/><br/>
 
-<h3 id="wechat-qrcode"><img src="./assets/icons/message.svg" width="20" height="20" align="absmiddle" alt="" /> WeChat / 微信</h3>
+<h3 id="wechat-qrcode">WeChat / 微信</h3>
 
 <img width="190" src="./assets/wechat-qrcode.png" alt="WeChat QR Code" />
 
