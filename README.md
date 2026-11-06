@@ -65,11 +65,11 @@ AI Agents · Developer Tools · Full-stack Delivery · React / Vue / Flutter / N
 <h3>Latest Blog Posts / 最新文章</h3>
 
 <!-- BLOG-POST-LIST:START -->
-- [WorkBuddy 开放技能付费！零基础一句话制作专属 Skill，3分钟开启“睡后收入”](https://blog.csdn.net/2201_75708499/article/details/170035384) — Wed Nov 04 2026 3:13 AM
 - [AI 编程 5000 条对话后的复盘与反思](https://blog.csdn.net/2201_75708499/article/details/162089004) — Thu Jun 18 2026 1:59 AM
 - [我用知识图谱发现了一个重构的隐藏依赖](https://blog.csdn.net/2201_75708499/article/details/161899813) — Fri Jun 12 2026 1:00 AM
 - [用 ChatCrystal 管理团队知识：多人协作方案](https://blog.csdn.net/2201_75708499/article/details/161899777) — Fri Jun 12 2026 12:45 AM
-- [从 ChatCrystal 导出到 Obsidian 的工作流](https://blog.csdn.net/2201_75708499/article/details/161867866) — Thu Jun 11 2026 1:00 AM<!-- BLOG-POST-LIST:END -->
+- [从 ChatCrystal 导出到 Obsidian 的工作流](https://blog.csdn.net/2201_75708499/article/details/161867866) — Thu Jun 11 2026 1:00 AM
+- [CLI 自动化：构建知识管理流水线](https://blog.csdn.net/2201_75708499/article/details/161867829) — Thu Jun 11 2026 12:45 AM<!-- BLOG-POST-LIST:END -->
 
 ---
 
