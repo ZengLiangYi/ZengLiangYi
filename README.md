@@ -9,11 +9,11 @@ AI Agents · Developer Tools · Full-stack Delivery · React / Vue / Flutter / N
 
 关注 AI Agent 与开发者工具，喜欢把想法做成能跑、能用、能持续迭代的产品。
 
-[![Website](https://img.shields.io/badge/Website-zengliangyi.com-0d1117?style=flat&logo=googlechrome&logoColor=00aca6)](https://zengliangyi.com)
-[![X](https://img.shields.io/badge/X-@yizel0501-0d1117?style=flat&logo=x&logoColor=white)](https://x.com/yizel0501)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Zeng_Liangyi-0d1117?style=flat&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/zeng-liangyi/)
+[![Juejin](https://img.shields.io/badge/Juejin-0d1117?style=flat&logo=juejin&logoColor=1E80FF)](https://juejin.cn/user/1669474445171547)
+[![CSDN](https://img.shields.io/badge/CSDN-0d1117?style=flat&logo=csdn&logoColor=FC5531)](https://blog.csdn.net/2201_75708499)
+[![Email](https://img.shields.io/badge/Email-Yizel@qq.com-0d1117?style=flat&logo=gmail&logoColor=EA4335)](mailto:Yizel@qq.com)
 [![WeChat](https://img.shields.io/badge/WeChat-Yizel1-0d1117?style=flat&logo=wechat&logoColor=07C160)](#wechat-qrcode)
-[![Email](https://img.shields.io/badge/Email-contact@zengliangyi.com-0d1117?style=flat&logo=maildotru&logoColor=white)](mailto:contact@zengliangyi.com)
+[![QQ Group](https://img.shields.io/badge/QQ%20Group-Join-0d1117?style=flat&logo=qq&logoColor=white)](https://qm.qq.com/q/GScM4vcteo)
 
 </div>
 
