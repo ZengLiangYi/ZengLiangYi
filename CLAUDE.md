@@ -25,6 +25,6 @@ All workflows support `workflow_dispatch` for manual triggering.
 ## Key Details
 
 - Blog automation uses the CSDN RSS feed `https://rss.csdn.net/2201_75708499/rss/map`.
-- The README keeps both Juejin (`https://juejin.cn/user/1669474445171547`) and CSDN (`https://blog.csdn.net/2201_75708499`) profile badges.
+- The README header features personal brand badges: Website (zengliangyi.com), X (@yizel0501), LinkedIn, WeChat, and professional Email.
 - Profile summary cards are generated for all available themes simultaneously — the README references the `radical` theme.
 - No build tools, package managers, or test suites exist in this repo.
