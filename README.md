@@ -11,7 +11,7 @@ AI Agents · Developer Tools · Full-stack Delivery · React / Vue / Flutter / N
 
 [![Juejin](https://img.shields.io/badge/Juejin-0d1117?style=flat&logo=juejin&logoColor=1E80FF)](https://juejin.cn/user/1669474445171547)
 [![CSDN](https://img.shields.io/badge/CSDN-0d1117?style=flat&logo=csdn&logoColor=FC5531)](https://blog.csdn.net/2201_75708499)
-[![Email](https://img.shields.io/badge/Email-Yizel@qq.com-0d1117?style=flat&logo=gmail&logoColor=EA4335)](mailto:Yizel@qq.com)
+[![Email](https://img.shields.io/badge/Email-zengliangyi.ai@gmail.com-0d1117?style=flat&logo=gmail&logoColor=EA4335)](mailto:zengliangyi.ai@gmail.com)
 [![WeChat](https://img.shields.io/badge/WeChat-Yizel1-0d1117?style=flat&logo=wechat&logoColor=07C160)](#wechat-qrcode)
 [![QQ Group](https://img.shields.io/badge/QQ%20Group-Join-0d1117?style=flat&logo=qq&logoColor=white)](https://qm.qq.com/q/GScM4vcteo)
 
